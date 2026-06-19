@@ -1,0 +1,16 @@
+__pycache___
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+.env
+.git/
+.gitignore
+.vscode/
+.pytest_cache/
+
+database/*.db
+
+reports/
+README.md
