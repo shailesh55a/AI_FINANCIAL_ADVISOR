@@ -41,7 +41,7 @@ Keep the advice simple, practical, and actionable.
 
     try:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model="llama3-70b-8192",
             messages=[
                 {
                     "role": "system",
