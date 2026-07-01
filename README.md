@@ -11,7 +11,7 @@ An AI-powered financial analysis application that helps users understand their i
 - Income, Expense, and Savings analysis  
 - Financial Health Score  
 - Interactive charts and visualizations  
-- AI-generated financial advice using Groq API  
+- AI-generated financial advice using Groq API (LLM)  
 - Downloadable PDF financial report  
 - SQLite database for analysis history  
 - Streamlit web interface  
@@ -24,7 +24,7 @@ An AI-powered financial analysis application that helps users understand their i
 - Streamlit  
 - Pandas  
 - Matplotlib  
-- Groq API (GPT-OSS 120B / LLM)  
+- Groq API (llama3-70b-8192 / llama3-8b-8192)  
 - SQLite  
 - ReportLab  
 - python-dotenv  
@@ -39,7 +39,9 @@ ai-financial-advisor/
 │── requirements.txt
 │── .env
 │── database/
+│   └── (SQLite database files)
 │── reports/
+│   └── (Generated PDF reports)
 │── src/
 │   ├── analyzer.py
 │   ├── ai_advisor.py
